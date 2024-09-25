@@ -2,7 +2,7 @@
 
 ![image](images/risc-v.jpg)
 
-本repo是《RISC-V体系结构编程与实践》一书的配套实验参考代码和勘误。    
+  本repo是《RISC-V体系结构编程与实践》一书的配套实验参考代码和勘误。    
 1. master分支：是本书默认的实验参考代码，基于QEMU和NEMU。     
 2. DongShanPI_D1分支：基于[DongShangPI D1s开发板](https://item.taobao.com/item.htm?&id=695941169493)验证过的实验参考代码，由韦东山团队提供技术支持。    
 

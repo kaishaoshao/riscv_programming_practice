@@ -1,5 +1,5 @@
 #include "uart.h"
-
+#include "../sbi/sbi_lib.h"
 void kernel_main(void)
 {
 	uart_init();
@@ -9,3 +9,4 @@ void kernel_main(void)
 		;
 	}
 }
+

@@ -18,7 +18,7 @@
 
 #define readb(c)	({ unsigned char  __v = __arch_getb(c); __iormb(); __v; })
 #define writeb(v,c)	({ unsigned char  __v = v; __iowmb(); __arch_putb(__v,c);})
-#else
+#else 
 static inline void writel(unsigned int value, unsigned int addr)
 {
 	*(volatile unsigned int *)addr = value;

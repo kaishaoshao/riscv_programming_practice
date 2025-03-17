@@ -1,4 +1,4 @@
-GNU ?= riscv64-unknown-linux-gnu
+GNU ?= riscv64-linux-gnu
 
 COPS += -save-temps=obj -g -O0 -Wall -nostdlib -nostdinc -Iinclude -mcmodel=medany -mabi=lp64 -march=rv64imafd -fno-PIE -fomit-frame-pointer
 
